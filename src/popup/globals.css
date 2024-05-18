@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-display: "Onest", "Pretendard", "sans-serif";
+  --font-family-sans: "Pretendard", "sans-serif";
+}
+
+:root {
+  @apply antialiased;
+  color-scheme: light dark;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+*::selection {
+  @apply bg-blue-500 text-white;
+}
+
+body {
+  @apply bg-white dark:bg-black;
+}
